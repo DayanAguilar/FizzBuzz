@@ -11,7 +11,9 @@ describe("FizzBuzz", () => {
   it("deberia devolver Buzz porque es 5", () => {
     expect(generarFizzBuzzPara(5)).toEqual("Buzz");
   });
-  
+  it("deberia devolver el numero porque es 1 y no es multiplo ni de 3 ni de 5", () => {
+    expect(generarFizzBuzzPara(1)).toEqual(1);
+  });
 });
 
 
